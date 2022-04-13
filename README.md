@@ -1,3 +1,1 @@
-# nextjs-hxymqg
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/nextjs-hxymqg)
+#Hacker News client made with Nextjs and Tailwindcss
