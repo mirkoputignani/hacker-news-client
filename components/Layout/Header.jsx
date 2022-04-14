@@ -1,4 +1,4 @@
-import Logo from '../components/Logo';
+import Logo from './Logo';
 import { MoonIcon, SunIcon } from '@heroicons/react/outline';
 import { useTheme } from 'next-themes';
 import { useState, useEffect } from 'react';
@@ -33,7 +33,7 @@ const Header = () => {
   };
 
   return (
-    <header className="h-16 shadow-md dark:border-gray-700">
+    <header className="shadow-md dark:border-gray-700">
       <div className="container px-4 sm:px-6 py-4 flex justify-between items-center">
         <Logo />
 
